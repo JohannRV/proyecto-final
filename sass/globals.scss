@@ -1,0 +1,48 @@
+body{
+    background-color: #EDF5FC;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 3rem;
+    border-bottom: solid 1px #dddd;
+}
+.register{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.card{
+    color: #ddd;
+    top: 10rem;
+    border: none;
+    display: flex;
+    background-color: #dddd;
+    align-items: center;
+    right: 300px;
+}
+.info{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 6rem;
+    margin: 10px;
+    gap: 20px;
+}
+.card-imgs{
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    & img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0;
+        width: 28rem;
+    }
+}

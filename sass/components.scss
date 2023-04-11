@@ -1,0 +1,101 @@
+$color-main: #23CE6B;
+$color-secondary:#272D2D;
+.main-menu{
+    margin-bottom: 0;
+    li{
+        align-items: center;
+        font-weight: 400;
+        margin: 10px;
+        gap: 20px;
+        font-size: 1.3rem;
+        list-style: none;
+        display: inline;
+        a{
+            font-weight:300;
+            transition: 0.2s;
+            color: $color-secondary;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                margin: 10px;
+                transition: 0.5s;
+                color: $color-main;
+                
+            }
+        }
+    }
+}
+.logo-main img{
+    margin-left: 2rem;
+    width: 8rem;
+    height: 2rem;
+}
+.btn-main{
+    font-weight: 200;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: $color-main;
+    color: white;
+    margin-right: 100px;
+
+    &-s{
+        @extend .btn-main;
+        margin-right: 0px;
+        margin: 2rem;
+    }
+    &-s2{
+        @extend .btn-main;
+        padding: 0.5rem 1rem;
+        margin-top: 2rem;
+        margin-right: 0px ;
+        margin-left: 40rem ;
+    }
+
+    &:hover{
+        border: solid 2px $color-main;
+        transform:translateY(-5px);
+        transition: 0.5s;
+        background-color: #EDF5FC;
+        color: $color-main;
+    }
+}
+.green{
+    color: $color-main;
+    &-2{
+        @extend .green;
+    }
+
+    
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+.card-img img{
+    float: right ;top: -30rem; width: 500px;
+    left: 5rem;
+}
+h6{
+    font-size: 2rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#a6a5c7;
+}
+span{
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#a6a5c7;
+    }
+h4{
+    font-size: 1rem;
+    font-weight:100;
+    align-items: center;
+    justify-content: center;
+    color:#a6a5c7;
+} 
